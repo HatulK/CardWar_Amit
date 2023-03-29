@@ -1,6 +1,8 @@
 //
 // Created by vboxuser on 3/24/23.
 //
+#ifndef PLAYER_HPP
+#define PLAYER_HPP
 #include "string"
 #include "player.hpp"
 
@@ -25,3 +27,4 @@ Player::~Player() {
 Player::Player() {
 
 }
+#endif

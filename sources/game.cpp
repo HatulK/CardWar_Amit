@@ -1,7 +1,8 @@
 //
 // Created by vboxuser on 3/24/23.
 //
-
+#ifndef GAME_HPP
+#define GAME_HPP
 #include "game.hpp"
 
 using namespace ariel;
@@ -35,3 +36,4 @@ ariel::Game::Game(Player &player1, Player &player2) : player1(player1), player2(
 Game::~Game() {
 
 }
+#endif
